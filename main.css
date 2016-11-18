@@ -1,0 +1,76 @@
+html {
+	background-color: #060000;
+	background-image: url(images/landing-back-003.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+
+	padding: 50px 15px;
+}
+
+.content {
+	max-width: 710px; 
+	display: block;
+	margin: 0 auto;
+}
+.content img {
+	max-width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+	.column-first {
+		box-sizing: border-box;
+		float: left;
+		width: 50%;
+		border-right: solid 1px #FFF;
+		padding-right: 25px;
+		margin-bottom: 25px;
+	}
+	.column-second {
+		box-sizing: border-box;
+		float: left;
+		width: 50%;
+		padding-left: 40px;
+	}
+@media(max-width: 710px) {
+	.column-first, .column-second {
+		display: block;
+		width: 100%;
+		padding: 0px;
+		border: none;
+	}
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 300;
+	color: #FFF;
+	margin-bottom: 0px;
+}
+
+
+#description {
+	margin-bottom: 30px;
+}
+
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+a:hover {
+	color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 7px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
