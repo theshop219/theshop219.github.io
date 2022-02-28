@@ -24,7 +24,7 @@ html {
 		box-sizing: border-box;
 		float: left;
 		width: 50%;
-		border-right: solid 1px #000000;
+		border-right: solid 1px #fff;
 		padding-right: 25px;
 		margin-bottom: 25px;
 	}
@@ -48,7 +48,7 @@ p {
 	letter-spacing: 1px;
 	font-size: 20px;
 	font-weight: 300;
-	color: #000000;
+	color: #fff;
 	margin-bottom: 0px;
 }
 
@@ -58,11 +58,11 @@ p {
 }
 
 a {
-	color: #000000;
+	color: #fff;
 	text-decoration: underline;
 }
 a:hover {
-	color: #000000;
+	color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 7px;
 	font-size: 15px;
 	font-weight: 700;
-	color: #000000;
+	color: #fff;
 	text-transform: uppercase;
 }
 
